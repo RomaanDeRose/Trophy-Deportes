@@ -1,0 +1,42 @@
+@import "variables";
+
+//BOOTSTRAP
+// EDITO COLORES, BACKGROUNDS, SOMBRAS, FUENTES, ETC
+$primary: $colorPrincipal;
+$secondary: $colorFondo;
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+);
+// EDITO ESTILOS DEL NAVBAR
+$navbar-light-toggler-border-color: $secondary;
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-toggler-padding-y: 0.6rem;
+$navbar-toggler-padding-x: 1.2rem;
+$navbar-toggler-border-radius: 10px;
+$navbar-toggler-font-size: 1.5rem;
+// EDITO ESTILOS DEL CARROUSEL
+$carousel-dark-indicator-active-bg: $colorPrincipal;
+$carousel-dark-caption-color: $colorPrincipal;
+$carousel-control-color: $colorPrincipal;
+$carousel-control-opacity: 0.5;
+$carousel-control-hover-opacity: 0.9;
+.fas.fa-chevron-right {
+	font-size: 2rem;
+}
+.fas.fa-chevron-left {
+	font-size: 2rem;
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+
+// COMPONENTES
+@import "componentes/navbar";
+@import "componentes/footer";
+
+// PAGES
+@import "paginas/index";
+@import "paginas/servicios";
+@import "paginas/catalogo-calzado";
+@import "paginas/contacto";

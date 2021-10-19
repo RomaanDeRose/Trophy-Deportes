@@ -1,0 +1,65 @@
+@import "../variables";
+
+@mixin footers {
+	width: 100%;
+	height: 185px;
+	background-image: url("../images/svg-footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer {
+	position: absolute;
+	@include footers;
+}
+
+.footer2 {
+	background-color: $colorFondo;
+	position: relative;
+	@include footers;
+}
+
+.footer3 {
+	@extend .footer;
+}
+
+.socialLinks {
+	width: 100%;
+	margin-top: 11.5rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.socialLinks__a i {
+	color: white;
+	font-size: 2.7rem;
+	transition: all 350ms ease;
+}
+
+.socialLinks__a i:hover {
+	transform: scale(1.4);
+}
+
+@media screen and (min-width: 530px) {
+	.socialLinks__a i {
+		font-size: 3rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.socialLinks {
+		justify-content: flex-end;
+		margin-right: 7rem;
+		margin-top: 9rem;
+	}
+	.socialLinks .socialLinks__a {
+		margin: 0 2rem;
+	}
+}
