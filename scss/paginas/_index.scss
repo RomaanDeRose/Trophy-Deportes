@@ -263,3 +263,24 @@
 		margin-top: -2.5rem;
 	}
 }
+
+@media screen and (max-height: 350px) {
+	.indexContainer {
+		padding-top: 8rem;
+		margin-bottom: -10rem;
+		height: auto;
+	}
+	.footer {
+		position: relative;
+	}
+	.text {
+		margin-top: 0;
+	}
+	.img__container {
+		position: initial;
+		margin-top: 2rem;
+	}
+	.img__container img {
+		opacity: 1;
+	}
+}

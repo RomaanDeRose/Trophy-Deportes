@@ -27,7 +27,8 @@
 }
 
 .footer3 {
-	@extend .footer;
+	position: fixed;
+	@include footers;
 }
 
 .socialLinks {
