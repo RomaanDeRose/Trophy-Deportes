@@ -3643,16 +3643,16 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   padding: 0.6rem 1.2rem;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.285rem + 0.42vw);
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 7px;
   transition: box-shadow 0.15s ease-in-out;
 }
 @media (min-width: 1200px) {
   .navbar-toggler {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
