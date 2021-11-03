@@ -1,0 +1,45 @@
+@import "../variables";
+
+.error-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-container {
+	background-color: $colorPrincipal;
+	width: 310px;
+	text-align: center;
+	padding: 3rem 5rem;
+	border-radius: 12px;
+}
+
+.text-container__title {
+	color: $colorFondo;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.text-container__link {
+	display: inline-block;
+	border: $borde2;
+	background-color: transparent;
+	margin-top: 1rem;
+	padding: 1.3rem 1.8rem;
+	border-radius: 22px;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $colorFondo;
+	font-weight: 600;
+	letter-spacing: 1px;
+	transition: background 200ms ease, color 300ms ease;
+}
+.text-container__link:hover {
+	background-color: $colorFondo;
+	color: $colorPrincipal;
+	box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+}
