@@ -60,6 +60,28 @@
 						</li>							
 					</ul>
 		</nav>
+		<!-- MODAL -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title fw-bold text-white fs-1" id="exampleModalLabel">Compra Exitosa!</h2>
+						<button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p class="text-white fs-5">
+							En los próximos días, te contactaremos via Email para más detalles
+							sobre el envío.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="button-modal" data-bs-dismiss="modal">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- MAIN -->
 		<main class="main__container">
 			<h1 class="titleH1-2 fw-bold">Catalogo</h1>
@@ -76,7 +98,7 @@
 						<p class="cardProduct__productName">campera nike</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$13.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -140,7 +162,7 @@
 						<p class="cardProduct__productName">top deportivo nike</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$6.000</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -153,7 +175,7 @@
 						<p class="cardProduct__productName">nike 20/21</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$7.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -230,7 +252,7 @@
 						<p class="cardProduct__productName">short nike 20/21</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$5.000</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -243,7 +265,7 @@
 						<p class="cardProduct__productName">adidas originals 19/20</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$5.200</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -256,7 +278,7 @@
 						<p class="cardProduct__productName">barcelona 19/20</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$5.000</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -269,7 +291,7 @@
 						<p class="cardProduct__productName">argentina 2018</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$4.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -282,7 +304,7 @@
 						<p class="cardProduct__productName">rusia 2018</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$4.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -295,7 +317,7 @@
 						<p class="cardProduct__productName">remera curry mvp</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$6.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -359,7 +381,7 @@
 						<p class="cardProduct__productName">pelota de futbol</p>
 						<p class="cardProduct__productSize">Tamaño: <span>3 4 5 6</span></p>
 						<p class="cardProduct__productPrice">$7.000</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -423,7 +445,7 @@
 						<p class="cardProduct__productName">pelota de basquet</p>
 						<p class="cardProduct__productSize">Tamaño: <span>3 4 5 6</span></p>
 						<p class="cardProduct__productPrice">$7.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -436,7 +458,7 @@
 						<p class="cardProduct__productName">mancuernas</p>
 						<p class="cardProduct__productSize">Peso: <span>2kg 5kg 7kg 10kg</span></p>
 						<p class="cardProduct__productPrice">$10.500</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -449,7 +471,7 @@
 						<p class="cardProduct__productName">banco plano + barra</p>
 						<p class="cardProduct__productSize">Peso: <span>8kg 12kg 17kg 22kg</span></p>
 						<p class="cardProduct__productPrice">$36.000</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -462,7 +484,7 @@
 						<p class="cardProduct__productName">guantes de arquero</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$9.000</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 				<div class="cardProduct">
@@ -475,7 +497,7 @@
 						<p class="cardProduct__productName">campera adidas 20/21</p>
 						<p class="cardProduct__productSize">Talle: <span>S M L XL</span></p>
 						<p class="cardProduct__productPrice">$13.800</p>
-						<button class="cardProduct__buyProduct">Comprar</button>
+						<button class="cardProduct__buyProduct" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</button>
 					</div>
 				</div>
 			</div>
