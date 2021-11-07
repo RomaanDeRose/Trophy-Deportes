@@ -10,7 +10,7 @@
 	text-align: center;
 	border-radius: 10px;
 	box-shadow: 3px 4px 10px -1px #0000001c;
-	transition: all 250ms ease;
+	transition: transform 250ms ease;
 }
 
 .main__container {
@@ -39,7 +39,9 @@
 }
 
 .cardProduct:hover {
-	transform: scale(1.02);
+	transform: scale(1.03);
+	border: $borde;
+	box-shadow: 4px 5px 12px 1px #0000001c;
 }
 
 .cardProduct img {
