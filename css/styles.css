@@ -10766,24 +10766,8 @@ body::-webkit-scrollbar-thumb {
 .img__container img {
   width: 100%;
   height: 100%;
-  animation-name: img-move;
-  animation-duration: 2s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
-@keyframes img-move {
-  0% {
-    transform: translateX(20px);
-  }
-  50% {
-    transform: translateX(-20px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
 @media screen and (min-width: 380px) {
   .links .links__button--margin {
     margin-left: 2rem;
@@ -11546,6 +11530,90 @@ body::-webkit-scrollbar-thumb {
   background-color: white;
   color: #f59154;
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+}
+
+.indexContainer {
+  animation: fadeUp 1s;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(0px);
+  }
+}
+.img__container img {
+  animation-name: img-move;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes img-move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@media screen and (min-width: 1024px) {
+  @keyframes img-move {
+    0% {
+      transform: translateX(35px);
+    }
+    50% {
+      transform: translateX(-35px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+}
+.mainContainerServices {
+  animation: fadeLeft 1s;
+}
+
+@keyframes fadeLeft {
+  25% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.main__container {
+  animation: fadeLeft 1s;
+}
+
+.mainContainerContact {
+  animation: fade 1s;
+}
+
+.titleH1 {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
