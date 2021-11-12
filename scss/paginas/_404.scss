@@ -41,3 +41,30 @@
 		}
 	}
 }
+
+@media screen and (max-height: 490px) {
+	.text-container {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		z-index: 6;
+	}
+}
+
+@media screen and (max-height: 385px) {
+	.text-container {
+		margin-top: -4.5rem;
+	}
+}
+
+@media screen and (min-height: 350px) and (max-height: 384px) {
+	.text-container {
+		top: 10px;
+	}
+}
+
+@media screen and (max-height: 349px) {
+	.text-container {
+		top: 100px;
+	}
+}
