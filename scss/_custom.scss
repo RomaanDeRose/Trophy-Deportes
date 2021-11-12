@@ -1,0 +1,64 @@
+//BOOTSTRAP
+// EDITO COLORES, BACKGROUNDS, SOMBRAS, FUENTES, ETC
+$primary: $colorPrincipal;
+$secondary: $colorFondo;
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+);
+$font-size-base: 1.1rem;
+// EDITO ESTILOS DEL MODAL
+$modal-backdrop-bg: $colorPrincipal;
+$modal-content-bg: $colorPrincipal;
+$modal-content-border-color: $secondary;
+$modal-content-border-width: 2px;
+$modal-content-border-radius: 10px;
+$modal-header-border-width: 0.5px;
+$modal-footer-border-width: 0.5px;
+$modal-header-border-color: $secondary;
+$modal-footer-border-color: $secondary;
+.button-modal {
+	cursor: pointer;
+	background-color: transparent;
+	border: 2px solid $colorFondo;
+	color: $colorFondo;
+	font-size: 1.35rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	padding: 1rem 1.5rem;
+	border-radius: 18px;
+	margin-top: 1rem;
+	transition: background 200ms ease, color 200ms ease;
+}
+.button-modal:hover {
+	background-color: $colorFondo;
+	color: $colorPrincipal;
+}
+i.fas.fa-times {
+	font-size: 2.5rem;
+	color: $secondary;
+}
+// EDITO ESTILOS DEL NAVBAR
+$navbar-light-toggler-border-color: $secondary;
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-toggler-padding-y: 0.6rem;
+$navbar-toggler-padding-x: 1.2rem;
+$navbar-toggler-border-radius: 7px;
+$navbar-toggler-font-size: 1.6rem;
+// EDITO ESTILOS DEL CARROUSEL
+$carousel-dark-indicator-active-bg: $colorPrincipal;
+$carousel-dark-caption-color: $colorPrincipal;
+$carousel-control-color: $colorPrincipal;
+$carousel-control-opacity: 0.5;
+$carousel-control-hover-opacity: 0.9;
+.fas.fa-chevron-right {
+	font-size: 2rem;
+}
+.fas.fa-chevron-left {
+	font-size: 2rem;
+}
+// ESITO ESTILO DE LOS INPUTS
+$input-color: #767676;
+$input-placeholder-color: #aaa;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
