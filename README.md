@@ -4,6 +4,6 @@
 
 ### Autor: Roman De Rose
 
-@https://romaanderose.github.io/proyecto-final-DW-22585/
+@https://romaanderose.github.io/Trophy-Deportes/
 
 ![](/images/trophy-deportes-captura.png?raw=true)
