@@ -11304,17 +11304,17 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0.8rem;
   text-align: center;
 }
-.formContact input {
+.formContact__input {
   width: 100%;
   padding: 1rem 1.2rem;
   box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.19);
   border: none;
   border-radius: 15px;
 }
-.formContact input:focus {
+.formContact__input:focus {
   outline: 2px solid #f59154;
 }
-.formContact textarea {
+.formContact__textarea {
   width: 100%;
   padding: 1rem 1.2rem;
   box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.19);
@@ -11322,7 +11322,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 15px;
   resize: none;
 }
-.formContact textarea:focus {
+.formContact__textarea:focus {
   outline: 2px solid #f59154;
 }
 
@@ -11331,8 +11331,6 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0.6rem;
 }
 .buttonsContainer__button {
-  position: relative;
-  z-index: 100;
   cursor: pointer;
   width: 45.5%;
   margin: 0 2%;
