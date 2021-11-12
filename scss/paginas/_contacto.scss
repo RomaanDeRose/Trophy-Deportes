@@ -19,13 +19,13 @@
 
 .containerContact {
 	width: 100%;
-}
-
-.mainContainerContact__titleH2 {
-	font-size: 2rem;
-	color: $colorPrincipal;
-	letter-spacing: 1px;
-	margin-top: 2.4rem;
+	&__titleH2 {
+		font-size: 2rem;
+		color: $colorPrincipal;
+		letter-spacing: 1px;
+		margin-top: 2.4rem;
+		margin-bottom: 1.7rem;
+	}
 }
 
 .formContact {
@@ -33,80 +33,72 @@
 	margin: 0 auto;
 	margin-top: 0.8rem;
 	text-align: center;
-}
-
-.formContact input {
-	width: 100%;
-	padding: 1rem 1.2rem;
-	box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.19);
-	border: none;
-	border-radius: 15px;
-}
-
-.formContact input:focus {
-	outline: $borde;
-}
-
-.formContact textarea {
-	width: 100%;
-	padding: 1rem 1.2rem;
-	box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.19);
-	border: none;
-	border-radius: 15px;
-	resize: none;
-}
-
-.formContact textarea:focus {
-	outline: $borde;
+	& input {
+		width: 100%;
+		padding: 1rem 1.2rem;
+		box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.19);
+		border: none;
+		border-radius: 15px;
+		&:focus {
+			outline: $borde;
+		}
+	}
+	& textarea {
+		width: 100%;
+		padding: 1rem 1.2rem;
+		box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.19);
+		border: none;
+		border-radius: 15px;
+		resize: none;
+		&:focus {
+			outline: $borde;
+		}
+	}
 }
 
 .buttonsContainer {
 	width: 100%;
 	margin-top: 0.6rem;
-}
-
-.buttonsContainer__button {
-	position: relative;
-	z-index: 100;
-	cursor: pointer;
-	width: 45.5%;
-	margin: 0 2%;
-	background-color: transparent;
-	color: $colorPrincipal;
-	font-size: 1.5rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	border: $borde;
-	padding: 1rem 1.6rem;
-	border-radius: 10px;
-	transition: background 300ms ease, color 300ms ease;
-}
-
-.buttonsContainer__button:hover {
-	background-color: $colorPrincipal;
-	color: #fff;
-	box-shadow: 2px 4px 12px -1px rgba(0, 0, 0, 0.25);
+	&__button {
+		position: relative;
+		z-index: 100;
+		cursor: pointer;
+		width: 45.5%;
+		margin: 0 2%;
+		background-color: transparent;
+		color: $colorPrincipal;
+		font-size: 1.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		border: $borde;
+		padding: 1rem 1.6rem;
+		border-radius: 10px;
+		transition: background 300ms ease, color 300ms ease;
+		&:hover {
+			background-color: $colorPrincipal;
+			color: #fff;
+			box-shadow: 2px 4px 12px -1px rgba(0, 0, 0, 0.25);
+		}
+	}
 }
 
 .directionContainer {
 	width: 100%;
 	text-align: center;
-}
-
-.directionContainer__titleH2 {
-	font-size: 2rem;
-	color: $colorPrincipal;
-	letter-spacing: 1px;
-	margin-top: 5rem;
-}
-
-.directionContainer__iframe {
-	width: 90%;
-	height: 320px;
-	border: $borde;
-	border-radius: 6px;
-	margin-top: 1rem;
+	&__titleH2 {
+		font-size: 2rem;
+		color: $colorPrincipal;
+		letter-spacing: 1px;
+		margin-top: 5rem;
+	}
+	&__iframe {
+		width: 90%;
+		height: 320px;
+		border: $borde;
+		border-radius: 6px;
+		margin-top: 1rem;
+	}
 }
 
 @media screen and (min-width: 600px) {

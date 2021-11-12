@@ -11284,12 +11284,12 @@ body::-webkit-scrollbar-thumb {
 .containerContact {
   width: 100%;
 }
-
-.mainContainerContact__titleH2 {
+.containerContact__titleH2 {
   font-size: 2rem;
   color: #f59154;
   letter-spacing: 1px;
   margin-top: 2.4rem;
+  margin-bottom: 1.7rem;
 }
 
 .formContact {
@@ -11298,7 +11298,6 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0.8rem;
   text-align: center;
 }
-
 .formContact input {
   width: 100%;
   padding: 1rem 1.2rem;
@@ -11306,11 +11305,9 @@ body::-webkit-scrollbar-thumb {
   border: none;
   border-radius: 15px;
 }
-
 .formContact input:focus {
   outline: 2px solid #f59154;
 }
-
 .formContact textarea {
   width: 100%;
   padding: 1rem 1.2rem;
@@ -11319,7 +11316,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 15px;
   resize: none;
 }
-
 .formContact textarea:focus {
   outline: 2px solid #f59154;
 }
@@ -11328,7 +11324,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin-top: 0.6rem;
 }
-
 .buttonsContainer__button {
   position: relative;
   z-index: 100;
@@ -11346,7 +11341,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   transition: background 300ms ease, color 300ms ease;
 }
-
 .buttonsContainer__button:hover {
   background-color: #f59154;
   color: #fff;
@@ -11357,14 +11351,12 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   text-align: center;
 }
-
 .directionContainer__titleH2 {
   font-size: 2rem;
   color: #f59154;
   letter-spacing: 1px;
   margin-top: 5rem;
 }
-
 .directionContainer__iframe {
   width: 90%;
   height: 320px;
