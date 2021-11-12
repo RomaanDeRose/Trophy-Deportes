@@ -11622,5 +11622,8 @@ body::-webkit-scrollbar-thumb {
     opacity: 1;
   }
 }
+.error-container {
+  animation: fadeUp 1s;
+}
 
 /*# sourceMappingURL=styles.css.map */
