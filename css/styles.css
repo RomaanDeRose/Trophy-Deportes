@@ -11481,14 +11481,12 @@ body::-webkit-scrollbar-thumb {
   padding: 3rem 5rem;
   border-radius: 12px;
 }
-
 .text-container__title {
   color: white;
   font-size: 2.4rem;
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .text-container__link {
   display: inline-block;
   border: 2px solid white;
@@ -11504,7 +11502,6 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 1px;
   transition: background 200ms ease, color 300ms ease;
 }
-
 .text-container__link:hover {
   background-color: white;
   color: #f59154;
