@@ -10628,11 +10628,17 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 0.5px;
   z-index: 10;
 }
-
 .nav a:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 767px) {
+  .nav {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
 .footer {
   position: fixed;
   width: 100%;
