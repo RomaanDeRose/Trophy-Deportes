@@ -6,4 +6,4 @@
 
 @https://romaanderose.github.io/Trophy-Deportes/
 
-![](/images/trophy-deportes-captura.png?raw=true)
+![](/images/captura-trophy.png?raw=true)
