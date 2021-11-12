@@ -10713,15 +10713,13 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   text-align: center;
 }
-
-.text .text__title {
+.text__title {
   font-size: 3.5rem;
   color: #f59154;
   letter-spacing: 1px;
   padding-top: 0.2rem;
 }
-
-.text .text__description {
+.text__description {
   width: 95%;
   margin: 0 auto;
   font-size: 1.2rem;
@@ -10732,8 +10730,7 @@ body::-webkit-scrollbar-thumb {
 .links {
   margin-top: 2.7rem;
 }
-
-.links .links__button {
+.links__button {
   border: 2px solid #f59154;
   background-color: transparent;
   padding: 1rem 1.5rem;
@@ -10746,14 +10743,12 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 1px;
   transition: background 300ms ease, color 300ms ease;
 }
-
-.links .links__button:hover {
+.links__button:hover {
   background-color: #f59154;
   color: white;
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
 }
-
-.links .links__button--margin {
+.links__button:hover--margin {
   margin-left: 1.2rem;
 }
 
