@@ -7,9 +7,6 @@
 // ESTILOS GLOBALES
 @import "global";
 
-// ERROR 404
-@import "paginas/404";
-
 // COMPONENTES
 @import "componentes/navbar";
 @import "componentes/footer";
@@ -19,6 +16,9 @@
 @import "paginas/servicios";
 @import "paginas/catalogo-calzado";
 @import "paginas/contacto";
+
+// ERROR 404
+@import "paginas/404";
 
 // ANIMACIONES
 @import "componentes/animaciones";
