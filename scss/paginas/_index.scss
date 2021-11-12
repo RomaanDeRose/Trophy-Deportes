@@ -176,6 +176,12 @@
 	}
 }
 
+@media screen and (min-width: 1500px) {
+	.text .text__description {
+		width: 52%;
+	}
+}
+
 @media screen and (max-height: 584px) {
 	.img__container {
 		width: 240px;

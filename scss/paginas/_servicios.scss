@@ -150,11 +150,23 @@
 }
 
 @media screen and (min-width: 1500px) {
+	.mainContainerServices__titleH1 {
+		font-size: 3.6rem;
+	}
+
 	.servicesContainer {
 		width: 70%;
 	}
 
 	.servicesContainer__services {
 		margin-bottom: 4rem;
+	}
+
+	.servicesContainer__services__textServices__title {
+		font-size: 3.55rem;
+	}
+
+	.servicesContainer__services__textServices__description {
+		font-size: 1.5rem;
 	}
 }

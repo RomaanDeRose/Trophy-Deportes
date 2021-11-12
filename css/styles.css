@@ -10639,6 +10639,11 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
   }
 }
+@media screen and (min-width: 1500px) {
+  .nav {
+    font-size: 1.6rem;
+  }
+}
 .footer {
   position: fixed;
   width: 100%;
@@ -10888,6 +10893,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 0.6rem;
   }
 }
+@media screen and (min-width: 1500px) {
+  .text .text__description {
+    width: 52%;
+  }
+}
 @media screen and (max-height: 584px) {
   .img__container {
     width: 240px;
@@ -11112,12 +11122,24 @@ body::-webkit-scrollbar-thumb {
   }
 }
 @media screen and (min-width: 1500px) {
+  .mainContainerServices__titleH1 {
+    font-size: 3.6rem;
+  }
+
   .servicesContainer {
     width: 70%;
   }
 
   .servicesContainer__services {
     margin-bottom: 4rem;
+  }
+
+  .servicesContainer__services__textServices__title {
+    font-size: 3.55rem;
+  }
+
+  .servicesContainer__services__textServices__description {
+    font-size: 1.5rem;
   }
 }
 .main__container {
