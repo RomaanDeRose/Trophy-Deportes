@@ -61,9 +61,81 @@
 	}
 }
 
+.opinionContainer {
+	@extend .servicesContainer;
+	margin-top: 2rem;
+	&__title {
+		color: $colorPrincipal;
+		font-size: 3rem;
+		margin-bottom: 5rem;
+	}
+	&__cards {
+		width: 100%;
+		&__card {
+			background-color: $colorPrincipal;
+			color: $colorFondo;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			padding: 2rem;
+			margin: 2.6rem 0;
+			border-radius: 8px;
+			box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+			transition: all 250ms ease;
+			&:hover {
+				transform: scale(1.03);
+				box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+			}
+			&:nth-child(2) {
+				margin-top: 5.5rem;
+				margin-bottom: 1rem;
+			}
+			& article {
+				width: 90px;
+				height: 90px;
+			}
+			&__img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 50%;
+				border: $borde2;
+			}
+			&__text {
+				width: 60%;
+				font-size: 1.2rem;
+				font-weight: 500;
+				margin-bottom: 0rem;
+				margin-left: 1rem;
+				& span {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.opinionContainer__cards__card article {
+		width: 102px;
+		height: 102px;
+	}
+
+	.opinionContainer__cards__card__text {
+		font-size: 1.3rem;
+	}
+}
+
 @media screen and (min-width: 500px) {
 	.servicesContainer {
 		margin-top: 3.5rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.opinionContainer__cards__card__text {
+		width: 50%;
 	}
 }
 
@@ -107,6 +179,39 @@
 	}
 }
 
+@media screen and (min-width: 750px) {
+	.opinionContainer__cards__card {
+		padding: 3rem 2rem;
+	}
+	.opinionContainer__cards__card__text {
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.opinionContainer {
+		padding-bottom: 1.2rem;
+	}
+	.opinionContainer__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.opinionContainer__cards__card {
+		margin: 0;
+		width: 355px;
+	}
+
+	.opinionContainer__cards__card article {
+		width: 110px;
+		height: 110px;
+	}
+
+	.opinionContainer__cards__card:nth-child(2) {
+		margin: 0;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 	.servicesContainer {
 		width: 80%;
@@ -118,6 +223,22 @@
 
 	.servicesContainer__services {
 		margin-bottom: 3.5rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.opinionContainer {
+		padding-bottom: 2.5rem;
+	}
+	.opinionContainer__cards {
+		margin-top: 7rem;
+	}
+
+	.opinionContainer__cards__card {
+		width: 410px;
+	}
+	.opinionContainer__cards__card__text {
+		width: 52%;
 	}
 }
 
@@ -168,5 +289,18 @@
 
 	.servicesContainer__services__textServices__description {
 		font-size: 1.5rem;
+	}
+
+	.opinionContainer__cards__card {
+		width: 430px;
+	}
+
+	.opinionContainer__cards__card article {
+		width: 118px;
+		height: 118px;
+	}
+
+	.opinionContainer__cards__card__text {
+		font-size: 1.42rem;
 	}
 }
