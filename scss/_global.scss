@@ -1,3 +1,4 @@
+// ESTILOS GLOBALES
 * {
 	margin: 0;
 	padding: 0;
@@ -5,10 +6,12 @@
 	font-family: "Ubuntu", sans-serif;
 }
 
+// TAMAÑO A LA FUENTE
 html {
 	font-size: 62.5%;
 }
 
+// EDITO LA SCROLLBAR
 body::-webkit-scrollbar {
 	width: 12px;
 	background-color: #f2f2f2;
