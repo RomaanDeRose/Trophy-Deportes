@@ -11038,7 +11038,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .opinionContainer {
-  margin-top: 2rem;
+  margin-top: 3.2rem;
+  padding-bottom: 1.2rem;
 }
 .opinionContainer__title {
   color: #f59154;
@@ -11161,10 +11162,11 @@ body::-webkit-scrollbar-thumb {
 }
 @media screen and (min-width: 850px) {
   .opinionContainer {
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.65rem;
   }
 
   .opinionContainer__cards {
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
   }
